@@ -7,9 +7,9 @@ const App = () => {
         <>
             <Navbar />
 
-            <div className="container my-5">
+            
                 <Outlet />
-            </div>
+            
 
             <Footer />
         </>

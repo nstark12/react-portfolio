@@ -1,3 +1,8 @@
-nav img {
+nav img,
+footer img {
     width: 30%;
+}
+
+.logo p {
+    color: pink;
 }

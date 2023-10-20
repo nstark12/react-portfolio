@@ -1,3 +1,7 @@
+:root {
+    --main-color: #EF85D1;
+}
+
 nav img,
 footer img {
     width: 150px;
@@ -40,6 +44,24 @@ footer img {
     width: 100%;
 }
 
+.contact h1,
+.projects h1 {
+    color: var(--main-color);
+    font-size: 55px;
+}
+
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width: 46%;
+    margin: 2%;
+}
+
 @media(max-width: 600px) {
     .hero {
         height: 400px;
@@ -55,5 +77,14 @@ footer img {
 
     .about p {
         font-size: 15px;
+    }
+
+    .contact h1,
+    .projects h1 {
+        font-size: 30px;
+    }
+
+    .card {
+        width: 100%;
     }
 }

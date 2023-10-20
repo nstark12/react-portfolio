@@ -5,7 +5,7 @@ This portfolio was created to showcase the live web applications that I have dep
 
 Screenshot of Application: ![Screenshot of my portfolio](./src/assets/portfolio.png)
 
-Application deployed through [Heroku](https://pwa-text-editor-pwa-a311c8b77a83.herokuapp.com/)
+Application deployed through [Netlify](https://nicole-codes.netlify.app/)
 
 
   ## Table of Contents

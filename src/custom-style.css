@@ -28,8 +28,32 @@ footer img {
     border-radius: 35px;
 }
 
-@media(max-width: 500px) {
+.about h1 {
+    font-size: 50px;
+}
+
+.about p {
+    font-size: 30px;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+@media(max-width: 600px) {
+    .hero {
+        height: 400px;
+    }
+
     .hero h1 {
-        font-size: 60px;
+        font-size: 50px;
+    }
+
+    .about h1 {
+        font-size: 30px;
+    }
+
+    .about p {
+        font-size: 15px;
     }
 }

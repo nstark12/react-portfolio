@@ -1,5 +1,17 @@
 :root {
     --main-color: #EF85D1;
+    --accent-color: #97417f;
+}
+
+button.btn {
+    background: var(--main-color);
+    color: white;
+}
+
+button.btn:hover {
+    background: var(--accent-color);
+    cursor: pointer;
+    color: white;
 }
 
 nav img,
@@ -87,7 +99,6 @@ footer img {
     text-align: center;
     margin: 15px;
 }
-
 
 @media(max-width: 600px) {
     .hero {

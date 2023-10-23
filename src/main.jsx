@@ -9,6 +9,7 @@ import Resume from './components/Resume.jsx'
 
 import './custom-style.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.min.js'
 
 const router = createBrowserRouter([
   {

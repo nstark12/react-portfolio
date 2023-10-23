@@ -130,4 +130,9 @@ footer img {
     .type {
         width: 98%;
     }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+    }
 }

@@ -5,8 +5,17 @@ import landmarkGolf from '../assets/landmarkgolf.png'
 import landmarkStudio from '../assets/landmarkstudio.png'
 import dogBlog from '../assets/dogblog.png'
 import jate from '../assets/jate.png'
+import myCookbook from '../assets/mycookbook.png'
 
 const projects = [
+    {
+        name: 'MyCookbook',
+        description: "This application allows users to create an account to search for and save their own recipes. I am CONSTANTLY losing my recipes so I wanted to make an application where I can keep them all in one place. The app allows the user to fill out a form with any recipe information and save it to their profile. The user can also search the web for recipes using keywords, ingredients, or full recipe names. This search uses the Spoonacular API and search is limited due to using the free version.",
+        img: myCookbook,
+        github: 'https://github.com/tjansson-ui/JobReadyResumeBuilder.git',
+        deployed: 'https://my-cookbook-recipe-saver-55777e226eb7.herokuapp.com/',
+        technologies: 'NodeJS, Express, Sequelize, MySql2, Bcrypt, Spoonacular API, Heroku, HTML/CSS'
+    },
     {
         name: 'CareerCraft Resume Builder',
         description: "This application provides a simple template for users to generate a resume. The application allows users to sign up for CareerCraft's services, and then gives users access to the resume generator. The application functions through NodeJs and ExpressJS command line following the MVC paradigm. The application uses Handlebars.js as the template engine, and mySql2 and Sequelize as the ORM",

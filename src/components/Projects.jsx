@@ -6,8 +6,17 @@ import landmarkStudio from '../assets/landmarkstudio.png'
 import dogBlog from '../assets/dogblog.png'
 import jate from '../assets/jate.png'
 import myCookbook from '../assets/mycookbook.png'
+import scripts from '../assets/scripts-login.png'
 
 const projects = [
+    {
+        name: '<scripts />',
+        description: "<scripts /> is a social media platform tailored to the needs of software developers and programmers. This platform facilitates connections among developers by enabling users to craft and share posts, consequently fostering a network of followers and connections. This application is powered by MERN stack and hosted on Heroku.",
+        img: scripts,
+        github: 'https://github.com/lizf57/scripts-connect-coders',
+        deployed: 'https://scripts-connects-coders-15b85f76118d.herokuapp.com/login',
+        technologies: 'React, Apollo, GraphQL, Chakra UI, Cloudinary, Heroku, HTML/CSS'
+    },
     {
         name: 'MyCookbook',
         description: "This application allows users to create an account to search for and save their own recipes. I am CONSTANTLY losing my recipes so I wanted to make an application where I can keep them all in one place. The app allows the user to fill out a form with any recipe information and save it to their profile. The user can also search the web for recipes using keywords, ingredients, or full recipe names. This search uses the Spoonacular API and search is limited due to using the free version.",

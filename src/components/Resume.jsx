@@ -1,5 +1,5 @@
-import resume from '../assets/res.pdf'
-import resumeImg from '../assets/res.png'
+import resume from '../assets/resume2023.pdf'
+import resumeImg from '../assets/resume2023.png'
 
 const Resume = () => {
     return (

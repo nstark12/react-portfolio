@@ -1,14 +1,17 @@
-import img from "../assets/background.png";
+import img from "../assets/self.png";
 const About = () => {
   return (
     <>
       <div className="hero">
         <h1>Hi...I&#39;m Nicole!</h1>
       </div>
-      <div className="container about d-flex my-5">
+      <div
+        className="container about d-flex my-5 justify-content-between align-items-center"
+        id="about"
+      >
         <div className="about-text">
           <h1>About Me</h1>
-          <p>
+          <p className="me-4">
             I am a Marketing Director from Wisconsin freelancing in Web
             Development & Design. I have two years of self-taught coding
             experience and I have a certificate in Full Stack Web Development
@@ -18,7 +21,7 @@ const About = () => {
           </p>
         </div>
         <div className="about-img">
-          <img src={img} alt="" />
+          <img src={img} alt="image of Nicole Stark" />
         </div>
       </div>
     </>

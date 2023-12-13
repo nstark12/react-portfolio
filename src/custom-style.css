@@ -1,138 +1,136 @@
 :root {
-    --main-color: #EF85D1;
-    --accent-color: #97417f;
+  --main-color: #ef85d1;
+  --accent-color: #97417f;
 }
 
 button.btn {
-    background: var(--main-color);
-    color: white;
+  background: var(--main-color);
+  color: white;
 }
 
 button.btn:hover {
-    background: var(--accent-color);
-    cursor: pointer;
-    color: white;
+  background: var(--accent-color);
+  cursor: pointer;
+  color: white;
 }
 
 nav img,
 footer img {
-    width: 150px;
+  width: 150px;
 }
 
 .logo p {
-    color: pink;
+  color: pink;
 }
 
 .hero {
-    margin: 0;
-    padding: 0;
-    background-image: url("./assets/hero.png"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-    background-blend-mode: overlay;
-    background-size: cover;
-    background-position: bottom;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin: 0;
+  padding: 0;
+  background-image: url("./assets/hero.png"),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: bottom;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero h1 {
-    color: white;
-    font-size: 90px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-    padding: 10px;
-    border-radius: 35px;
+  color: white;
+  font-size: 90px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  padding: 10px;
+  border-radius: 35px;
 }
 
 .about h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .about p {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .about-img img {
-    width: 100%;
+  width: 100%;
+  border-radius: 40px;
 }
 
 .contact h1,
 .projects h1,
 .resume h1 {
-    color: var(--main-color);
-    font-size: 55px;
+  color: var(--main-color);
+  font-size: 55px;
 }
 
-
 .projects {
-    display: flex;
-    flex-wrap: wrap;
-
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card {
-    width: 46%;
-    margin: 2%;
+  width: 46%;
+  margin: 2%;
 }
 
 .resume img {
-    width: 100%;
+  width: 100%;
 }
 
 .proficiencies {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .type {
-    width: 30%;
+  width: 30%;
 }
 
-
 .proficiencies h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .proficiencies p {
-    text-align: center;
-    margin: 15px;
+  text-align: center;
+  margin: 15px;
 }
 
-@media(max-width: 600px) {
-    .hero {
-        height: 400px;
-    }
+@media (max-width: 600px) {
+  .hero {
+    height: 400px;
+  }
 
-    .hero h1 {
-        font-size: 50px;
-    }
+  .hero h1 {
+    font-size: 50px;
+  }
 
-    .about h1 {
-        font-size: 30px;
-    }
+  .about h1 {
+    font-size: 30px;
+  }
 
-    .about p {
-        font-size: 15px;
-    }
+  .about p {
+    font-size: 15px;
+  }
 
-    .contact h1,
-    .projects h1,
-    .resume h1 {
-        font-size: 30px;
-    }
+  .contact h1,
+  .projects h1,
+  .resume h1 {
+    font-size: 30px;
+  }
 
-    .card {
-        width: 100%;
-    }
+  .card {
+    width: 100%;
+  }
 
-    .type {
-        width: 98%;
-    }
+  .type {
+    width: 98%;
+  }
 
-    .footer-links {
-        display: flex;
-        flex-direction: column;
-    }
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+  }
 }

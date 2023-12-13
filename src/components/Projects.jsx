@@ -1,12 +1,12 @@
 import Card from "./Card";
-import careerCraft from "../assets/careercraft-min.png";
-import encyclopet from "../assets/encyclopet-min.png";
-import landmarkGolf from "../assets/landmarkgolf-min.png";
-import landmarkStudio from "../assets/landmarkstudio-min.png";
-import dogBlog from "../assets/dogblog-min.png";
-import jate from "../assets/jate-min.png";
-import myCookbook from "../assets/mycookbook-min.png";
-import scripts from "../assets/scripts-login-min.png";
+import careerCraft from "../assets/careercraft-min.jpg";
+import encyclopet from "../assets/encyclopet-min.jpg";
+import landmarkGolf from "../assets/landmarkgolf-min.jpg";
+import landmarkStudio from "../assets/landmarkstudio-min.jpg";
+import dogBlog from "../assets/dogblog-min.jpg";
+import jate from "../assets/jate-min.jpg";
+import myCookbook from "../assets/mycookbook-min.jpg";
+import scripts from "../assets/scripts-login-min.jpg";
 
 const projects = [
   {

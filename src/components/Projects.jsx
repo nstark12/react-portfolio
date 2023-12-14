@@ -7,8 +7,18 @@ import dogBlog from "../assets/dogblog-min.jpg";
 import jate from "../assets/jate-min.jpg";
 import myCookbook from "../assets/mycookbook-min.jpg";
 import scripts from "../assets/scripts-login-min.jpg";
+import bigPie from "../assets/bigPie.jpg";
 
 const projects = [
+  {
+    name: "bigPie Pizza",
+    description:
+      "bigPie Pizza is a food ordering application that allows users to login or register to order a variety of different food items. The user can checkout using Stripe. The application also allows admin users to add, update, and/or delete categories and menu items. The admin(s) can also view and edit all users and see all orders and whether or not they have been paid. All users with an account are able to view and edit their profile as well as see their past orders. This application is hosted on Vercel.",
+    img: bigPie,
+    github: "https://github.com/nstark12/bigpie-pizza",
+    deployed: "https://bigpie-pizza.vercel.app/",
+    technologies: "NextJS, React, MongoDB, Stripe, HTML/CSS",
+  },
   {
     name: "<scripts />",
     description:

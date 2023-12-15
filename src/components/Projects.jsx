@@ -7,7 +7,7 @@ import dogBlog from "../assets/dogblog-min.jpg";
 import jate from "../assets/jate-min.jpg";
 import myCookbook from "../assets/mycookbook-min.jpg";
 import scripts from "../assets/scripts-login-min.jpg";
-import bigPie from "../assets/bigPie.jpg";
+import bigPie from "../assets/bigpie.jpg";
 
 const projects = [
   {
